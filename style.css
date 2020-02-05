@@ -1,0 +1,99 @@
+/* colours / fonts */
+body{
+  background: #FAF3F3;
+  font-family: sans-serif;
+  color: #353535;
+  font-size: 20px;
+}
+
+h1 {
+  color: #2E3532;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h2 {
+  color: #2E3532;
+  font-family: Cinzel, serif;
+  font-size: 20px;
+}
+
+h3 {
+  color: #664C43;
+  font-size: 15px;
+  font-family: Cinzel, serif;
+  font-weight: 900;
+}
+
+.container {
+  width: 800px;
+  margin: 40px auto;
+  background-image: url("images/backhgroundimage.jpg")
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  align-content: center;
+  text-align: center;
+  margin: 30px
+}
+
+
+.card-grey {
+  background: #E3DBDB;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  align-content: center;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
