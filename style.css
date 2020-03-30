@@ -1,75 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,500,700,900);
+@import url(https://use.fontawesome.com/releases/v5.2.0/css/all.css);
+
 /* colours / fonts */
 body{
-  background: #FAF3F3;
-  font-family: sans-serif;
-  color: #353535;
+  background:#F3EAF4;
+  font-family: sans-serif, cursive;
+  color: #5A5353;
   font-size: 20px;
+  text-align: center;
 }
 
 h1 {
-  color: #2E3532;
-  font-family: sans-serif;
+  color: #776274;
+  font-family: sans-serif, cursive;
   font-size: 30px;
   font-weight: 500;
 }
 
 h2 {
-  color: #2E3532;
+  color: #776274;
   font-family: Cinzel, serif;
   font-size: 20px;
 }
 
+p {
+  color: #776274;
+  font-family: lora, serif;
+  font-size: 17px;
+}
+
 h3 {
   color: #664C43;
-  font-size: 15px;
+  font-size: 20px;
   font-family: Cinzel, serif;
   font-weight: 900;
+  text-align: center;
 }
 
-.container {
+ul {
+  color: #776274;
+  text-align: center;
+  font-size:20px;
+  list-style:none;
+  display: inline-block;
+  padding-inline-start: 0px;
+}
+
+li {
+  display: inline-block;
+  align-content: center;
+  padding: 0px 20px;
+  color: #776274;
+  size: 25px;
+  opacity: 0.5;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.container{
   width: 800px;
-  margin: 40px auto;
-  background-image: url("images/backhgroundimage.jpg")
+  margin: 0 auto;
+  padding: 10px;
 }
 
-.card-white {
+.card{
+  text-align: center;
   background: white;
   padding: 30px;
   border: 1px solid lightgrey;
-  align-content: center;
-  text-align: center;
-  margin: 30px
-}
-
-
-.card-grey {
-  background: #E3DBDB;
-  padding: 30px;
-  border: 1px solid lightgrey;
-  align-content: center;
-  text-align: center;
-}
-
-.img-circle {
-  border-radius: 50%;
-}
-.text-center {
-  text-align: center;
-}
-
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
-}
-
-.list-inline li {
-  display: inline-block;
+  border-radius: 10px 10px 10px 10px;
+  margin: 20px;
+  box-shadow: 13px 17px 22px -15px rgba(0,0,0,0.66);
 }
 
 @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
+    .container {
+    width: 800px;
   }
 }
 @media (max-width: 720px) {
@@ -84,16 +92,4 @@ h3 {
     width: 300px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
